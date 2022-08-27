@@ -10,7 +10,7 @@ Just do:
 docker compose up --build flask_app
 ```
 
-### You can make CRUD requests for example:
+### You can make CRUD requests. For example:
 
 - POST
 
@@ -19,7 +19,3 @@ docker compose up --build flask_app
 - GET
 
 ![Screenshot](GET.png)
-
-- DELETE
-
-![Screenshot](DELETE.png)
