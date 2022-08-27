@@ -14,7 +14,7 @@ docker compose up --build flask_app
 
 - POST
 
-![Screenshot](POST.png)
+![Screenshot](images/POST.png)
 
 - GET
 
@@ -22,4 +22,4 @@ docker compose up --build flask_app
 
 - DELETE
 
-![Screenshot](DELETE.png)
+![Screenshot](images/DELETE.png)
