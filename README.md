@@ -1,5 +1,5 @@
 # This is CRUD server where:
-- https
+
 - nginx
 - postgres
 
