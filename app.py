@@ -62,3 +62,8 @@ def delete_item(id):
     db.session.query(Item).filter_by(id=id).delete()
     db.session.commit()
     return "item deleted"
+
+
+@app.route("/")
+def hello():
+    return "HI FROM K8s!"
