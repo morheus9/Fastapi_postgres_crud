@@ -1,14 +1,15 @@
 # This is CRUD server where:
-- https
+
 - nginx
 - postgres
 
 
-Just do:
+Use helm for k8s or just do:
 
 ```
 docker compose up --build flask_app
 ```
+
 
 ### You can make CRUD requests. For example:
 
