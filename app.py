@@ -66,4 +66,4 @@ def delete_item(id):
 
 @app.route("/")
 def hello():
-    return "HI FROM K8s!"
+    return "HI this is start page!"
