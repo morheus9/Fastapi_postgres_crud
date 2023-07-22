@@ -4,3 +4,12 @@ docker-compose.yaml
 .gitignore
 app_https/
 .vscode/
+README.md
+infra
+__pycache__
+
+#images
+images
+
+#env
+test
