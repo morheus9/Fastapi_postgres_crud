@@ -8,7 +8,7 @@ import schemas.schemas as schemas
 
 # create the database
 Base.metadata.create_all(engine)
-# initialize app
+# initialize app aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssss
 app = FastAPI()
 
 
