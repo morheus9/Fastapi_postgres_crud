@@ -1,4 +1,5 @@
 [![Ruff linter](https://github.com/morheus9/fastapi_postgres_crud/actions/workflows/ruff.yml/badge.svg)](https://github.com/morheus9/fastapi_postgres_crud/actions/workflows/ruff.yml)
+[![DockerImageCI](https://github.com/morheus9/fastapi_postgres_crud/actions/workflows/push_dockerfile.yml/badge.svg)](https://github.com/morheus9/fastapi_postgres_crud/actions/workflows/push_dockerfile.yml)
 # This is base CRUD server with postgres and FastApi:
 
 ## Just clone, go to /infra and do:
