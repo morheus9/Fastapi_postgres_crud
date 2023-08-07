@@ -6,7 +6,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: chartboost/ruff-action@v1
+      - uses: actions/setup-python@v4
         with:
-        # src: "."
-          version: 0.0.280
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Linting by Ruff
+        uses: chartboost/ruff-action@v1
+        with:
+          version: 0.0.282
+         # src: "."
