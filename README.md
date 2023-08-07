@@ -10,10 +10,10 @@ docker compose up --build
 ```
 ## URLs
 ```
-App:           http://127.0.0.1:8000
-Docs fastapi:  http://127.0.0.1:8000/docs
-BD:            http://127.0.0.1:5432
-Pg Admin:      http://127.0.0.1:5000
+App:          http://127.0.0.1:8000
+Docs fastapi: http://127.0.0.1:8000/docs
+BD:           http://127.0.0.1:5432
+Pg Admin:     http://127.0.0.1:5000
 ```
 
 ### You can make CRUD requests. For example:
