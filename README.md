@@ -16,21 +16,26 @@ Pg Admin:     http://127.0.0.1:5000
 ### You can make CRUD requests. For example:
 
 - GET All
+  
 ![Screenshot](images/get_all.png)
 ![Screenshot](images/_get_all.png)
 
 - GET By ID
+  
 ![Screenshot](images/get_id.png)
 ![Screenshot](images/_get_id.png)
 
 - POST
+  
 ![Screenshot](images/post.png)
 ![Screenshot](images/_post.png)
 
 - PUT
+  
 ![Screenshot](images/put.png)
 ![Screenshot](images/_put.png)
 
 - DELETE
+  
 ![Screenshot](images/delete.png)
 ![Screenshot](images/_delete.png)
