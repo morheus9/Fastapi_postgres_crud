@@ -54,7 +54,7 @@ services:
       - db
 
 networks:
-  pythonapp:
+  python_app:
   db:
 
 volumes:

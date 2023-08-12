@@ -5,7 +5,6 @@ from sqlalchemy.orm import Session
 import models.models as models
 import schemas.schemas as schemas
 
-
 # create the database
 Base.metadata.create_all(engine)
 # initialize app
@@ -21,9 +20,12 @@ def get_session():
         session.close()
 
 
+'''
 @app.get("/")
-def root():
-    return "todooo"
+def root(session: Session = Depends(get_session)):
+    todo_list = session.query(models.ToDo).all()
+    return todo_list
+'''
 
 
 @app.get("/todo", response_model=List[schemas.ToDo])
