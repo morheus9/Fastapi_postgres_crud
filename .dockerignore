@@ -4,8 +4,8 @@ docker-compose.yaml
 .gitignore
 app_https/
 .vscode/
-README.md
 infra
+.env
 __pycache__
 
 #images

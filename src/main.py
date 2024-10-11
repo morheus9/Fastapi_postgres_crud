@@ -1,9 +1,9 @@
 from typing import List
 from fastapi import FastAPI, status, HTTPException, Depends
-from database.database import Base, engine, SessionLocal
+from src.database.database import Base, engine, SessionLocal
 from sqlalchemy.orm import Session
-import models.models as models
-import schemas.schemas as schemas
+import src.models.models as models
+import src.schemas.schemas as schemas
 
 # create the database
 Base.metadata.create_all(engine)
@@ -20,12 +20,12 @@ def get_session():
         session.close()
 
 
-'''
+"""
 @app.get("/")
 def root(session: Session = Depends(get_session)):
     todo_list = session.query(models.ToDo).all()
     return todo_list
-'''
+"""
 
 
 @app.get("/todo", response_model=List[schemas.ToDo])

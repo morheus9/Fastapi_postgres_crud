@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String
-from database.database import Base
+from src.database.database import Base
 
 
 # define To Do class inheriting from Base
